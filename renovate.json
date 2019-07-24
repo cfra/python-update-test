@@ -7,7 +7,7 @@
       },
       {
         "packageNames": ["circleci/python", "python"],
-        "allowedVersions": "<3.8"
+        "allowedVersions": "<=3.7"
       }
     ]
   },
