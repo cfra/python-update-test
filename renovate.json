@@ -1,0 +1,17 @@
+{
+  "docker": {
+    "packageRules": [
+      {
+        "packagePatterns": ["circleci/.+"],
+        "recreateClosed": true
+      },
+      {
+        "packageNames": ["circleci/python", "python"],
+        "versionScheme": "pep440"
+      }
+    ]
+  },
+  "extends": ["config:base", "docker:enableMajor"],
+  "labels": ["renovate"],
+  "rebaseStalePrs": false
+}
