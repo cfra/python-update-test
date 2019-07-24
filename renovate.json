@@ -6,8 +6,7 @@
         "recreateClosed": true
       },
       {
-        "packageNames": ["circleci/python", "python"],
-        "versionScheme": "pep440"
+        "packageNames": ["circleci/python", "python"]
       }
     ]
   },
