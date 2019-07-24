@@ -6,7 +6,8 @@
         "recreateClosed": true
       },
       {
-        "packageNames": ["circleci/python", "python"]
+        "packageNames": ["circleci/python", "python"],
+        "allowedVersions": "<3.8"
       }
     ]
   },
